@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nirajthanki6/devops-microservice-config.git
+server:
+  port: 8888
+
+
+---
